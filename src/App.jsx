@@ -3,6 +3,8 @@ import "./index.css";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
+
+// Main function starts here
 function App() {
   const [tasks, setTasks] = useState([
     {
